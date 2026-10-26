@@ -1,0 +1,51 @@
+
+# Private environment files
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build folders
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local secrets
+secrets/
+
+.env
+.env.*
+!.env.example
+node_modules/
+venv/
+.venv/
+
+# Python virtual environments
+ai-service/venv/
+ai-service/.venv/
+ai-service/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+.vscode/
+
+ai-service/videos/*
+!ai-service/videos/traffic.mp4
+!ai-service/videos/normal.mp4
